@@ -6,7 +6,7 @@ from random import randint
 count = int(input('Введите количество монет: '))
 reshka =0
 orel =0
-for i in range(count):
+for _ in range(count):
     coins = randint(0, 1)
     print(coins, end=' ')
     if coins == 0:
